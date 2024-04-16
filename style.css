@@ -120,6 +120,11 @@ td{
     border: none;
 }
 
+.linha-mensagem td {
+    text-align: center;
+    border-radius: 5px;
+}
+
 caption,
 th,
 td{
