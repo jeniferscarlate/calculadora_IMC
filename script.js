@@ -5,9 +5,9 @@
 //3. gerar classificação do IMC - ok
 //4. organizar as informações - ok
 //5. salvar os dados na lista - ok
-//6. ler a lista com os dados -
-//7. renderizar o conteúdo no HTML (tabela)
-//8. botão de limpar os registros (clear (LocalStorage))
+//6. ler a lista com os dados - ok
+//7. renderizar o conteúdo no HTML (tabela) - ok
+//8. botão de limpar os registros (clear (LocalStorage)) - ok
 
 
  //responsavel por chamar todas as outras funções
@@ -27,7 +27,6 @@ function CalcularValores(event) {
     window.location.reload();
 
 }
-
 
 function CapturarValores() {
     const nome = document.getElementById('name').value;
