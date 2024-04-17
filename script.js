@@ -147,14 +147,10 @@ function MontarTabela(listaDeCadastrados) {
     tabela.innerHTML = template;
 }
 
-function DeletarRegistros () {
+function DeletarRegistros() {
     
     localStorage.clear();
 
-    let tabela = document.getElementById('corpo-tabela');
-    tabela.innerHTML = `
-        <tr class='linha-mensagem'>
-            <td colspan='6'> Nenhum usuário cadastrado. </td>
-        </tr>
-    `;
+    window.location.reload();
 } 
+
